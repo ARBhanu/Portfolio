@@ -1,0 +1,294 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: rgb(35, 37, 84);
+    color:white;
+}
+nav .left{
+    width:30%;
+    display:flex;
+}
+nav .left img{
+    width: 55px;  
+}
+nav .right{
+    font-size:1.6rem;
+}
+nav{
+    top :0px;
+    display :flex;
+    align-items: center;
+    height:70px;
+    background-color: rgb(4, 7, 68);
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin: 10px 17px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+nav ul li a:hover{
+    border:1px solid grey;
+    border-radius: 20px;
+    background-color: darksalmon;
+    padding:10px;
+}
+.firstsection{
+    display: flex;
+    height:440px;
+    justify-content: space-around;
+    margin:100px 0px;
+}
+.firstsection > div{
+    width:30%;
+}
+.leftsection{
+    font-size: 2.0rem;
+    margin:90px 0;
+}
+.rightsection img{
+    width:100%;
+    height:100%;
+    margin:5px 0;
+}
+.amit .india{
+    color:bisque;
+    font-size:3rem;
+}
+.secondsection{
+    max-width: 80vw;
+    margin: 20px auto;
+}
+.secondsection h1{
+    font-size: 2rem;
+}
+.secondsection .skill img{
+    border-radius: 49%;
+    width: 250px;
+    height: 200px;
+    margin :40px;
+}
+.skill ul{
+    list-style: none;
+    display:flex;
+    margin:0 100px;
+}
+.about{
+    display: flex;
+    width:100%;
+    height:600px;
+    justify-content: space-around;
+}
+.aboutleft{
+    width:40%;
+}
+.aboutright{
+    width:50%;
+    margin-top: 100px;
+}
+.aboutright ul{
+    margin:20px;
+}
+.aboutright ul li{
+    font-size: 1rem;
+    margin:20px;
+    padding:5px;
+}
+.fourthsection{
+    width:100%;
+    height:1000px;
+}
+.education{
+    display:flex;
+    justify-content: center;
+}
+.box{ 
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 70px 24px;
+    border-radius: 28px;
+    background-color:darkblue;
+    /* margin-bottom: 20px; */
+}
+.box:hover{
+    background-color: #063b3b;
+}
+.box img{
+    border-radius: 49%;
+    display:block;
+    width:150px;
+    margin:auto;
+}
+.box p{
+    text-align: center;
+}
+.box h2{
+    display: block;
+    margin:auto;
+    width:100px;
+}
+.box h5{
+    display: block;
+    margin:auto;
+    width:200px;
+}
+.fifthsection{
+    width:100%;
+    height:400px;
+}
+.coding{
+    display:flex;
+    justify-content: center;
+}
+.coding .item{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 120px 20px;
+    border-radius: 28px;
+    background-color:darkblue;
+}
+.item:hover{
+    background-color: #063b3b;
+}
+.coding .item img{
+    border-radius: 49%;
+    display:block;
+    width:120px;
+    margin:auto;
+}
+.coding .item a{
+    text-decoration: none;
+}
+.coding .item a h2{
+    text-align: center;
+    display: block;
+    border:1px solid black;
+    background-color: chartreuse;
+    width:100px;
+    margin:30px 0 0 15px;
+}
+.sixthsection{
+    width:100%;
+    height:600px;
+    background-color: white;
+    color:black;
+    margin-top: 150px;
+}
+.contact{
+    display: flex;
+    width:100%;
+    height:600px;
+    justify-content: center;
+}
+.contact .leftcontact{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.leftcontact .boxi{
+    display: flex;
+    padding:7px;
+    margin:15px 300px;
+}
+.leftcontact .boxi img{
+    border-radius: 50%;
+    width:35px;
+}
+.leftcontact .boxi p{
+    font-size:1.2rem;
+    margin-top:20px;
+    margin-left: 30px;
+}
+.boxi a:hover{
+    background-color: #063b3b;
+}
+footer{
+    height:60px;
+}
+footer .cnt{
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+}
+.cnt .bx{
+    padding:0px;
+    display:flex;
+    justify-content: center;
+    cursor: pointer;
+    margin:10px;
+    border-radius: 50%;
+    /* background-color: white; */
+}
+.cnt .bx img{
+    border-radius: 50%;
+    width:35px;
+}
+.bx a img:hover{
+    background-color: #063b3b;
+    border-radius: 50%;
+}
+.sevensection{
+    width:100%;
+    height:2500px;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    color:white;
+}
+.bct{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 70px 24px;
+    border-radius: 28px;
+    background-color: darkblue;
+    width:1000px;
+}
+.bct:hover{
+    background-color: #063b3b;
+}
+.bct img{
+    border-radius: 49%;
+    display:block;
+    width:150px;
+    margin:auto;
+}
+.bct h3{
+    display:block;
+    width:200px;
+    margin:5px auto;
+    color:bisque;
+}
+.bct h4{
+    margin:5px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.bct p{
+    margin:5px;
+    text-align:center;
+    font-size:1.1rem;
+}
+.bct a{
+    text-decoration: none;
+}
+.bct a div{
+    display:block;
+    margin:auto;
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 2rem;
+    text-align: center;
+    width:100px;
+    border: 1px solid black;
+    background-color:white;
+}
+.stick a img:hover{
+    background-color: red;
+}
